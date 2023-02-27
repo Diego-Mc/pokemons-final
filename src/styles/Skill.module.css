@@ -1,0 +1,29 @@
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skillName {
+  width: 120px;
+  font-size: 16px;
+}
+
+.skillLevel {
+  width: 160px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.skillPercent {
+  background-color: #333;
+  height: 100%;
+}
+
+.skillPercentNumber {
+  margin-left: 20px;
+  font-size: 16px;
+}

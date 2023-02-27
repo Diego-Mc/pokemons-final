@@ -1,0 +1,37 @@
+.pokemonPreview {
+  height: 100px;
+  width: 100%;
+  border: 1px solid gold;
+  border-radius: 8px;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  display: flex;
+
+  transition: 0.2s;
+}
+
+.pokemonPreview:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pokemonImg {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.pokemonName {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}

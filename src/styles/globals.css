@@ -1,0 +1,83 @@
+:root {
+  --main-bg: #f7f7f9;
+  --acc-bg: #ffffff;
+  --main-fg: #000000;
+  --acc-blue: #3c82f6;
+  --acc-yellow: #ffedd5;
+  --acc-red: #fee2e2;
+  --acc-orange: #ffb414;
+  --acc-green: #00bf13;
+  --acc-light-gray: #f5f7fa;
+  --acc-gray: #e5e7eb;
+  --acc-dark-gray: #6b7280;
+  --acc-darker-gray: #303030;
+  --acc-light-blue: #eff6ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.6;
+  color: var(--main-fg);
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--main-bg);
+  font-size: 1rem;
+  user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+
+li,
+ul,
+ol {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+
+img,
+video {
+  width: 100%;
+}
+
+a,
+a:visited {
+  color: unset;
+}
+
+button {
+  appearance: none;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  user-select: none;
+  background: var(--acc-darker-gray);
+  color: var(--main-bg);
+  border: 2px solid var(--acc-darker-gray);
+}
+button:hover {
+  background: var(--main-fg);
+  border: 2px solid var(--main-fg);
+}
