@@ -1,8 +1,5 @@
 <br />
 <div align="center">
-  <a href="https://www.saderti.com">
-    <img src="https://res.cloudinary.com/wewix/image/upload/v1676934514/saderti/saderti-gh-header_pfneuj.png" alt="Logo">
-  </a>
   <h3 align="center">Pokemon App</h3>
   </br>
   <p align="left">
