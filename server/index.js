@@ -15,7 +15,7 @@ import next from 'next'
 dotenv.config()
 const isDev = process.env.NODE_ENV !== 'production'
 
-const nextApp = next({ dev: isDev, dir: '../.' })
+const nextApp = next({ dev: isDev })
 const handle = nextApp.getRequestHandler()
 
 nextApp
