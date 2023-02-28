@@ -1,0 +1,51 @@
+.editView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form {
+  padding: 30px 60px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 750px;
+}
+
+.formWrapper {
+  display: flex;
+}
+
+.imgSection {
+  padding: 30px 60px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 750px;
+}
+
+.imgSection img {
+  width: 512px;
+  height: 512px;
+  object-fit: contain;
+}
+
+.header {
+  padding-top: 36px;
+}

@@ -21,7 +21,19 @@ async function getPokemonById(req, res) {
   }
 }
 
+async function addPokemon(req, res) {
+  try {
+    const pokemon = req.body
+    const addedPokemon = await pokemonService.add(pokemon)
+    res.json(addedPokemon)
+  } catch (err) {
+    logger.error('Failed to add pokemon', pokemon)
+    res.status(500).send({ err: 'Failed to add pokemon' })
+  }
+}
+
 export const pokemonController = {
   getPokemons,
   getPokemonById,
+  addPokemon,
 }

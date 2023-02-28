@@ -81,3 +81,62 @@ button:hover {
   background: var(--main-fg);
   border: 2px solid var(--main-fg);
 }
+
+.customBtn {
+  margin-bottom: 10px;
+  height: 38px;
+  font-weight: 700;
+  border: 2px solid transparent;
+  background: transparent;
+  color: var(--acc-darker-gray);
+  padding-inline: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  transition: 0.2s;
+  background-color: transparent;
+  border-color: var(--acc-darker-gray);
+}
+
+.customBtn:hover {
+  background-color: var(--acc-darker-gray);
+  color: var(--acc-gray);
+}
+
+.backButton {
+  margin-bottom: 10px;
+  height: 38px;
+  font-weight: 700;
+  /* border: 2px solid var(--acc-darker-gray); */
+  border: 2px solid transparent;
+  background: transparent;
+  color: var(--acc-darker-gray);
+  padding-inline: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  transition: 0.2s;
+}
+
+.backButton:hover {
+  background-color: var(--acc-gray);
+  border-color: var(--acc-darker-gray);
+}
+
+.backButton svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  color: inherit;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 40px;
+}

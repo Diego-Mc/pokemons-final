@@ -1,0 +1,53 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputHelper {
+  color: tomato;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-left: 1px;
+  transform: translateY(-0.5rem);
+  transition: all 100ms linear;
+  z-index: -1;
+  margin-bottom: 10px;
+}
+
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid var(--acc-gray);
+  background-color: transparent;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: var(--acc-dark-gray);
+}
+
+.inputGroup :is(input:focus, :not(:placeholder-shown)) ~ label {
+  transform: translateY(-50%) scale(0.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color: white;
+}
+
+.inputGroup :is(input:focus, :not(:placeholder-shown)) {
+  border-color: var(--acc-dark-gray);
+}

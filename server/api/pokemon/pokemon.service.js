@@ -33,10 +33,21 @@ async function getById(pokemonId) {
   }
 }
 
+async function add(pokemon) {
+  try {
+    const collection = await getCollection('pokemon')
+    await collection.insertOne(pokemon)
+    return pokemon
+  } catch (err) {
+    logger.error('cannot insert pokemon', err)
+    throw err
+  }
+}
+
 //prettier-ignore
 const _transformPokemon = (pokemon) => ({
   _id: pokemon._id,
-  imgUrl: `https://github.com/fanzeyi/pokemon.json/blob/master/images/${pokemon.id.toString().padStart(3, 0)}.png?raw=true`,
+  imgUrl: pokemon.imgUrl || `https://github.com/fanzeyi/pokemon.json/blob/master/images/${pokemon.id.toString().padStart(3, 0)}.png?raw=true`,
   name: pokemon.name.english,
   type: pokemon.type[0],
   base: pokemon.base,
@@ -45,4 +56,5 @@ const _transformPokemon = (pokemon) => ({
 export const pokemonService = {
   query,
   getById,
+  add,
 }
