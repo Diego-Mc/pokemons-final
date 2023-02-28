@@ -23,7 +23,7 @@
 # 💡 &nbsp;Home Screen
 
 <div align="center">
-    <img src="https://res.cloudinary.com/wewix/image/upload/v1677467406/pokemon-list_hajaec.png" style="border-radius: 8px">
+    <img src="https://res.cloudinary.com/wewix/image/upload/v1677557875/pokemons-list_tzgkur.png" style="border-radius: 8px">
 </div>
 
 The home screen showcases 5 random pokemons and a button to allow the user to refresh the list with new pokemons. Each refresh triggers a cache storage update with the information about the newly fetched pokemons, this is used to ensure that each refresh will generate 5 new pokemons without repetitions.
@@ -33,9 +33,23 @@ The home screen showcases 5 random pokemons and a button to allow the user to re
 ## 👷‍♂️&nbsp;Details Screen
 
 <div align="center">
-    <img src="https://res.cloudinary.com/wewix/image/upload/v1677467404/pokemon-details_vtangz.png" style="border-radius: 8px">
+    <img src="https://res.cloudinary.com/wewix/image/upload/v1677557876/pokemons-details_jaggof.png" style="border-radius: 8px">
 </div>
 
 The details screen showcases extra information about your chosen pokemon. his base statistics are shown as a number (ranges from 1 to 255) and as a bar chart for better readability and user experience.
+
+<br/>
+
+## 👷‍♂️&nbsp;Edit Screen
+
+<div align="center">
+    <img src="https://res.cloudinary.com/wewix/image/upload/v1677557877/pokemon-edit_pmhpl7.png" style="border-radius: 8px">
+</div>
+
+The details screen showcases extra information about your chosen pokemon. his base statistics are shown as a number (ranges from 1 to 255) and as a bar chart for better readability and user experience.
+
+<div align="center">
+    <img src="https://res.cloudinary.com/wewix/image/upload/v1677557876/pokemon-after-edit_rrxvag.png" style="border-radius: 8px">
+</div>
 
 <br/>
